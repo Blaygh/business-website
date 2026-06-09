@@ -1,0 +1,122 @@
+/* BRAND COLORS */
+:root {
+  --black: #0F0F0F;
+  --gold: #C8A96A;
+  --bg: #F8F6F2;
+  --gray: #555;
+}
+
+/* GENERAL */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--pink);
+}
+
+/* HEADER */
+header {
+  background: var(--black);
+  color: pink;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* LOGO */
+.logo h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: var(--gold);
+  font-weight: 300;
+}
+
+/* TAGLINE */
+.tagline {
+  color: var(--pink);
+  margin-top: 10px;
+}
+
+/* NAV */
+nav {
+  text-align: center;
+  padding: 15px;
+  background: var(--pink);
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 500;
+}
+
+/* SECTION */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* SERVICES */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: pink;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: var(--gold);
+  color: var(--pink);
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  background: var(--black);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* MAP */
+.map-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
